@@ -107,7 +107,8 @@ body {
   color: var(--clr-n-grayish-blue);
   background-color: var(--clr-n-light-gray);
   line-height: 1.5;
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
 
   display: grid;
   place-content: center;
