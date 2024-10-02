@@ -120,6 +120,7 @@ body {
   display: flex;
   gap: 4rem;
   flex-direction: column;
+  overflow: auto;
   align-items: center;
 }
 
@@ -193,8 +194,8 @@ body {
 }
 
 .icon {
-  width: 64px;
-  height: 64px;
+  max-width: 64px;
+  max-height: 64px;
   align-self: end;
   justify-self: end;
 }
